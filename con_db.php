@@ -13,7 +13,7 @@ define ('db_password','Wan203002');
 define ('db_host','localhost');
 define ('db_name','registration');
 
-$conn = mysqli_connect (localhost, root, Wan203002, registration);
+$conn = mysqli_connect (db_host, db_user, db_password, db_name);
 $result = mysqli_query ($conn, "select * from user");
 while ($row = mysqli_fetch_array ($result)){
     foreach($row as $key=>$value){
