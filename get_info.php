@@ -12,7 +12,7 @@
     Lastname  : <input type= "test" name="lastname" required><br> 
     E-mail     : <input type= "test" name="email" required><br>
     Password  : <input type= "test" name="password" required><br>
-    Registration date  : <input type= "test" name="reg_date" required><br>
+    Registration date  : <input type= "test" name="registration_date" required><br>
     <input type="submit" value="Submit Data">
     </form>
 </body>
