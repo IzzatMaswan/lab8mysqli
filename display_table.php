@@ -9,7 +9,7 @@ while ($row = mysqli_fetch_row($result)){
     echo "<tr>";
     foreach ($row as $cell)
         echo "<td>$cell</td>";
-    echo "</tr>"
+    echo "</tr>";
 }
 
 mysqli_free_result ($result);
